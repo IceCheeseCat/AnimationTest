@@ -1,0 +1,5 @@
+{
+  "loader": "forge:obj",
+  "model": "animation_test:models/block/steel_clamp/steel_clamp.obj",
+  "flip-v": true
+}

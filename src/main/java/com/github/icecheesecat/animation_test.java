@@ -43,3 +43,4 @@ public class animation_test {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 }
+//https://forums.minecraftforge.net/topic/92057-1162-block-with-wavefront-obj-model/
