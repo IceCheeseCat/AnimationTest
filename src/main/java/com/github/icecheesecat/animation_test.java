@@ -27,7 +27,14 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.lwjgl.BufferUtils;
+import org.lwjgl.opengl.GL;
+import org.lwjgl.opengl.GL15;
+import org.lwjgl.opengl.GL45;
 import org.slf4j.Logger;
+
+import java.nio.ByteBuffer;
+import java.nio.FloatBuffer;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(animation_test.MODID)
@@ -41,6 +48,9 @@ public class animation_test {
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+
+
     }
 }
 //https://forums.minecraftforge.net/topic/92057-1162-block-with-wavefront-obj-model/
